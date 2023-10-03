@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Shaw</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d28f050284.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/anurag_logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Anurag</span> <br>From Kolkata, India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------------about----------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Born in Kolkata, I am a motivated and self-taught Front-End Engineer with a solid foundation in HTML, CSS, and JavaScript. I am currently enhancing my expertise in React and am enthusiastic about utilizing my skills and passion for web development to make a valuable contribution to a dynamic team and further my career as a front-end developer. Despite holding a master's degree in biotechnology, my passion for technology has driven me to become a self-taught Front-End Engineer.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023</span><br>Freelance Web Developer</li>
+                                <li><span>2023</span><br>Clinical Rsearch Program</li>
+                                <li><span>2023</span><br>Internship at ISI Kolkata</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Front End training and Projects</li>
+                                <li><span>2023</span><br>M.Sc from MAKAUT with CGPA 9.62</li>
+                                <li><span>2021</span><br>B.Sc from CU with CGPA 8.20</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------------------------services-------------------------------->
+
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>kuch likhna hoga.........</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>kuch likhna hoga.........</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>kuch likhna hoga.........</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+    <!-----------------------portfolio--------------------->
+
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/projectImages/weather.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>This app can help us check real time weather of any city in the world.<br>Click to visit</p>
+                        <a href="https://anuragshaw22.github.io/weatherApp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/projectImages/music.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This app relaxes our mind with songs you like.<br>Click to visit</p>
+                        <a href="https://anuragshaw22.github.io/Music-player/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/projectImages/QR.png">
+                    <div class="layer">
+                        <h3>QR Code Generator</h3>
+                        <p>The app helps you generate QR code from any link.<br>Click to visit</p>
+                        <a href="https://anuragshaw22.github.io/QR-Code-generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a href="myWork.html" class="btn">See more</a>
+    </div>
+<!----------------------contact------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>anuragshaw2211@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8620869049</p>
+                <div class="social-icons">
+                    <a href="https://github.com/anuragshaw22"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/_anurag.shaw_?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/anurag-shaw2299"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/AnuragShawCV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+   
+</div>
+<div class="copyright">
+    <p>Copyright © Anurag Shaw <i class="fa-solid fa-heart"></i></p>
+</div>
+    <script>
+
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabcontent of tabContents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby9FQcmHwZDl4Ivlcle5PDXe1HcIQABOPxJ2O8jCWs-N0aXS1pKm0grqnthnNrLqzHojw/exec';
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
